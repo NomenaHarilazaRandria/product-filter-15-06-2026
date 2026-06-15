@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Product-Filter</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<div class="container">
+		<header class="headerBody">
+			<h1>Produits Fictifs</h1>
+			<div class="inputContainer">
+				<form id="formInput">
+					<input id="inputSearch" type="text" placeholder="votre produit">
+					<button type="submit">Rechercher</button>
+				</form>
+				<ul id="outputListProductName">
+				</ul>
+			</div>
+			<div class="selectionContainer">
+				<div class="selection">
+					<label for="productCategorie">Catégorie :</label>
+					<select name="categorie" id="productCategorie">
+						<option value="">--Choisissez la catégorie--</option>
+						<option value="informatique">Informatique</option>
+						<option value="electromenage">Electroménagé</option>
+					</select>
+				</div>
+				<div class="selection">
+					<label for="productMaximumPrice">Prix Max :</label>
+					<select name="prix" id="productMaximumPrice">
+						<option value="">--Prix maximum--</option>
+						<option value="2500">2500€</option>
+						<option value="1000">1000€</option>
+						<option value="500">500€</option>
+					</select>
+				</div>
+			</div>
+		</header>
+		
+		<main class="mainBody">
+			<div id="productRender">
+			</div>
+		</main>
+		<aside class="asideBody">
+			<p>Ceci est une longue phrase dans le aside et qui n'a rien à avoir directement avec le produit.</p>
+			<p>Ceci est une longue phrase dans le aside et qui n'a rien à avoir directement avec le produit.</p>
+			<p>Ceci est une longue phrase dans le aside et qui n'a rien à avoir directement avec le produit.</p>
+			<p>Ceci est une longue phrase dans le aside et qui n'a rien à avoir directement avec le produit.</p>
+			<p>Ceci est une longue phrase dans le aside et qui n'a rien à avoir directement avec le produit.</p>
+		</aside>
+		<footer class="footerBody">
+			<p>Author : Randriamboavonjy Nomena Harilaza</p>
+			<p>Projet réalisé dans le cadre de mon apprentissage Front-end</p>
+			<p>
+				<small>Copyright © 2026 Nomena tous droits réservés</small>
+			</p>
+		</footer>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
